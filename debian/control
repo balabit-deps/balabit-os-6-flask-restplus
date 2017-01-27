@@ -1,0 +1,36 @@
+Source: flask-restplus
+Maintainer: Axel Haustant <axel@data.gouv.fr>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 7)
+Standards-Version: 3.9.1
+
+
+
+
+
+Package: python3-flask-restplus
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Fully featured framework for fast, easy and documented API d
+ ==============
+ Flask RestPlus
+ ==============
+ .
+ Flask-RESTPlus is an extension for `Flask`_ that adds support for quickly building REST APIs.
+ Flask-RESTPlus encourages best practices with minimal setup.
+ If you are familiar with Flask, Flask-RESTPlus should be easy to pick up.
+ It provides a coherent collection of decorators and tools to describe your API
+ and expose its documentation properly using `Swagger`_.
+ .
+ .
+ Compatibility
+ =============
+ .
+ Flask-RestPlus requires Python 2.7+.
+ .
+ .
+ Installation
+ ============
+ .
+
